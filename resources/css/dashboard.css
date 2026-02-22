@@ -1,0 +1,65 @@
+.dashboard-cards {
+  overflow: auto;
+}
+
+.task-boards {
+  cursor: grab;
+}
+
+.task-boards h5 {
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.task {
+  background-color: #f3f4f6;
+}
+
+.input-bottom-border {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.input-bottom-border:focus {
+  border-bottom: 2px solid #0d6efd;
+  outline: none;
+  box-shadow: none;
+}
+
+.input-title {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.loading-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.loading-box {
+  background: #ffffff;
+  padding: 25px 35px;
+  border-radius: 14px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  min-width: 220px;
+}
+
+.loading-overlay .spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
